@@ -23,23 +23,26 @@ body {
     margin: 0;
     font-family: 'opensans', arial, sans-serif;
     line-height: 1.5;
+    font-size: 18px;
 }
 h1{
     color: #fff;
     font-family: 'carmelit';
     font-weight: 400;
+    font-size: 34px;
 }
 img {
 
 }
 
 .banner {
-  background-image: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.3)),
+  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
     url(img/USPTO.jpg);
   background-position: center 55%;
   background-size: cover;
   text-align: center;
   padding: 50px 0;
     color: #fff;
+    
     
 }
