@@ -25,24 +25,220 @@ body {
     line-height: 1.5;
     font-size: 18px;
 }
-h1{
-    color: #fff;
-    font-family: 'carmelit';
-    font-weight: 400;
-    font-size: 34px;
+body {
+  margin: 0;
+  font-family: 'almoni', sans-serif;
+  line-height: 1.5;
+  font-size: 20px;
+  /*  color: #c7a17a;*/
+  background: #42b49a;
 }
+
 img {
+  max-width: 100%;
+  width: auto;
+  height: auto;
+}
+
+h1 {
+  font-size: 60px;
+  font-family: 'carmelit';
+  font-weight: 400;
+}
+
+h1:after {
+  content: "";
+  border-bottom: 3px solid #fff;
+  width: 80px;
+  display: block;
+  margin: auto;
+}
+
+/*
+h1:after {
+  content: "";
+  background: url(img/line.png) no-repeat;
+  background-size: contain;
+  height: 30px;
+  max-width: 300px;
+  display: block;
+  margin: auto;
+}
+*/
+h2 {
+  font-size: 48px;
+  color: #30271c;
 
 }
 
+h2:after {
+  content: "";
+  border-bottom: 3px solid #fff;
+  width: 80px;
+  display: block;
+}
+
+a {
+  color:#42b49a;
+;
+}
+
+.button {
+  text-decoration: none;
+  color: #000;
+  background: #fff;
+  padding: 10px 40px;
+  display: inline-block;
+}
+
+.button:hover {
+  background: #30271c;
+  color: #fff;
+}
+
+.container {
+  max-width: 980px;
+  margin: auto;
+}
+
+header {
+  text-align: center;
+}
+nav ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+nav a {
+  text-decoration: none;
+  color: #fff;
+  padding: 10px;
+  display: block;
+}
 .banner {
-  background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)),
-    url(img/USPTO.jpg);
-  background-position: center 55%;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url(img/mike-kenneally-zlwDJoKTuA8-unsplash.jpg);
+  background-position: center 40%;
   background-size: cover;
   text-align: center;
   padding: 50px 0;
-    color: #fff;
-    
-    
+  color: #fff;
+  position: relative;
+}
+
+.banner .container {
+  max-width: 600px;
+  font-size: 24px;
+}
+
+.features {
+  background: #fff;
+  text-align: center;
+  padding: 56px 0;
+}
+
+.features ul {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-gap: 56px;
+}
+
+.features img {
+  max-width: 100px;
+}
+
+.features h2:after {
+  margin: auto;
+}
+
+.features p {
+  color: #777;
+}
+
+/*
+.features a {
+  text-decoration: none;
+  color: #000;
+  display: block;
+}
+*/
+
+
+.our-story {
+  padding: 56px 0;
+}
+
+footer {
+  background: #000;
+  color: #fff;
+  text-align: center;
+  padding: 14px 0;
+}
+
+footer a {
+  color: #fff;
+}
+
+footer img {
+  width: 48px;
+}
+
+.social {
+  margin: 40px 0;
+}
+
+.social a {
+  margin: 0 10px;
+}
+
+
+.custom-shape-divider-bottom-1615827307 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1615827307 svg {
+  position: relative;
+  display: block;
+  width: calc(119% + 1.3px);
+  height: 68px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1615827307 .shape-fill {
+  fill: #42b49a;
+}
+
+.about {
+  position: relative;
+  padding: 56px 0 84px;
+}
+
+.custom-shape-divider-bottom-1615827767 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1615827767 svg {
+  position: relative;
+  display: block;
+  width: calc(143% + 1.3px);
+  height: 73px;
+}
+
+.custom-shape-divider-bottom-1615827767 .shape-fill {
+  fill: #FFFFFF;
 }
